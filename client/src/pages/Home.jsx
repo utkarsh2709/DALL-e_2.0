@@ -46,13 +46,13 @@ const Home = () => {
                                 Showing results for <span className='text-[#222328]'>{searchText}</span>
                             </h2>
                         )}
-                        <div className='grid lg:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 gap-3'>
+                        {/* <div className='grid lg:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 gap-3'>
                             {searchText ? (
                                 <RenderCards data={[]} title="No results found" />
                             ) : (
-                                <RenderCards data={allPosts} title="No posts found" />
+                                <RenderCards data={[]} title="No posts found" />
                             )}
-                        </div>
+                        </div> */}
                     </>
                 )}
             </div>
